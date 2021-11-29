@@ -18,6 +18,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D7881C67
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipelineHandlers.Tests", "PipelineHandlers.Tests\PipelineHandlers.Tests.csproj", "{F84AF129-D375-43E3-858C-AB1B54BF6231}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitWorkflows", "GitWorkflows", "{FB6AB265-B7E0-4BE9-A59F-A9250C4ADBA0}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FC9AC26E-6C75-4444-9731-33EA97583564} = {FC1B4602-39A0-4BC3-859A-FD00EFF73D8D}
 		{F84AF129-D375-43E3-858C-AB1B54BF6231} = {D7881C67-5195-4C89-B9C6-26E2F7A8284D}
+		{FB6AB265-B7E0-4BE9-A59F-A9250C4ADBA0} = {9772BAE4-F0E1-4EBD-8F0C-EF61C9C1AC96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3166174E-648F-4418-AD86-2AD73A549215}
