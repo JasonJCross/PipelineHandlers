@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/PipelineHandlers.Tests/bin
+/PipelineHandlers.Tests/obj
+/PiplineHandlers/bin/Debug/netstandard2.1
+/PiplineHandlers/obj

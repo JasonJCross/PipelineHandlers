@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9772BAE4-F0E1-4EBD-8F0C-EF61C9C1AC96}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PiplineHandlers", "PiplineHandlers\PiplineHandlers.csproj", "{FC9AC26E-6C75-4444-9731-33EA97583564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FC1B4602-39A0-4BC3-859A-FD00EFF73D8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D7881C67-5195-4C89-B9C6-26E2F7A8284D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipelineHandlers.Tests", "PipelineHandlers.Tests\PipelineHandlers.Tests.csproj", "{F84AF129-D375-43E3-858C-AB1B54BF6231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9AC26E-6C75-4444-9731-33EA97583564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9AC26E-6C75-4444-9731-33EA97583564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9AC26E-6C75-4444-9731-33EA97583564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9AC26E-6C75-4444-9731-33EA97583564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84AF129-D375-43E3-858C-AB1B54BF6231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84AF129-D375-43E3-858C-AB1B54BF6231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84AF129-D375-43E3-858C-AB1B54BF6231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84AF129-D375-43E3-858C-AB1B54BF6231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC9AC26E-6C75-4444-9731-33EA97583564} = {FC1B4602-39A0-4BC3-859A-FD00EFF73D8D}
+		{F84AF129-D375-43E3-858C-AB1B54BF6231} = {D7881C67-5195-4C89-B9C6-26E2F7A8284D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3166174E-648F-4418-AD86-2AD73A549215}
+	EndGlobalSection
+EndGlobal
